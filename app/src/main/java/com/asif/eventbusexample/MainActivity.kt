@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onStop() {
         bus.unregister(this)
+
         super.onStop()
     }
 
